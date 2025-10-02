@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SmartReadingApp",
-    "slug": "SmartReadingApp",
+    "name": "SmartReading",
+    "slug": "smart-reading",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,9 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "usesCleartextTraffic": true,
+      "networkSecurityConfig": "./android/app/src/main/res/xml/network_security_config.xml"
     },
     "web": {
       "favicon": "./assets/favicon.png"

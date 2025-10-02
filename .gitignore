@@ -38,4 +38,12 @@ yarn-error.*
 
 # generated native folders
 /ios
-/android
+
+# Backend
+backend/__pycache__/
+backend/uploads/
+backend/yolov9_repo/
+backend/models/best.pt
+*.pyc
+*.pyo
+*.pyd

@@ -4,14 +4,15 @@
 
 export const API_CONFIG = {
   // Try these IPs in order if one doesn't work
-  BASE_URL: 'http://10.200.36.174:8000',  // Updated to correct Wi-Fi IP
+  BASE_URL: 'http://10.97.34.174:8000',  // Updated to current Wi-Fi IP
   
   // Alternative IPs to try if current one fails
   ALTERNATIVE_IPS: [
-    'http://10.200.36.174:8000',    // Current correct Wi-Fi IP
+    'http://10.97.34.174:8000',     // Current correct Wi-Fi IP  
     'http://10.0.2.2:8000',         // Android emulator default
     'http://localhost:8000',        // For iOS simulator
     'http://127.0.0.1:8000',        // Loop back  
+    'http://10.200.36.174:8000',    // Previous Wi-Fi IP
     'http://192.168.31.78:8000',    // Previous Wi-Fi IP
     'http://10.178.231.174:8000',   // Previous IP
     'http://10.79.112.174:8000',    // Previous IP
